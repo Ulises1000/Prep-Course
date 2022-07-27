@@ -1,0 +1,29 @@
+En un archivo de texto separado que debes crear, 
+escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. 
+Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+Variables
+Strings
+Funciones (argumentos, return)
+Declaraciones if
+Valores booleanos (true, false)
+
+1.Variables: son espacios reservados en la memoria que contienen algun tipo de dato. A estos espacios de memoria 
+             se les asigna un nombre para que luego puedan ser referenciados y se pueda utilizar el dato dentro de ellos
+
+2.String: es un tipo de dato y esta constituido por cadenas de carateres, los cuales se incluyen dentro de comillas dobles,
+	    simples o backsticks para establecer que son strings.
+
+3.Funciones: son un tipo de statement y se encargan de reutilizar codigo que de otra forma se estaria repitiendo constantemente. 
+		 Pueden ser referenciados mediante un nombre o pueden ser anonimos y solo ejecutarse una vez.
+		 Además, pueden recibir argumentos (datos aportados por el usuario o programador) los cuales utiliza en lugar de utilizar
+		 codigo predefinido, haciendo mas dinamico el código. Tambien pueden devolver expresiones las cuales pueden ser utilizadas
+		 para definir variables o dentro de funciones que necesitan una expreción
+
+4.Declaraciones If: son un tipo de statement (mas especificamente, un statement condicional) el cual habilita distintas rutas a seguir,
+			  todas con codigo de distinta indole, dependiendo de la veracidad de la condicion presentada. Además, se puede anidar
+			  varios ifs o agregar else if..else para agregar complejidad y mas caminos a seguir dependiendo de la veracidad de las
+			  varias condiciones.
+
+5.Valores Booleanos: Se representan usando las palabras reservadas true o false y son un tipo de dato que representan 2 posiciones diferentes,
+			   verdadero o falso, 1 o 0, etc.								 
