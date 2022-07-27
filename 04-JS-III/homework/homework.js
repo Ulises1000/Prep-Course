@@ -55,14 +55,7 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
-  let palabraCompleta = "";
-  
-  for(let i = 0; i < palabras.length; i++){
-    if(i === (palabras.length - 1)) palabraCompleta += palabras[i];
-    else palabraCompleta += `${palabras[i]} `; 
-  }
-
-  return palabraCompleta;
+  return palabras.join(' ');
 }
 
 
@@ -118,7 +111,6 @@ function multiplicarArgumentos() {
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
   if(arguments.length === 0) return 0;
-  if(arguments.length === 0) return arguments[0];
 
   let resultado = 1;
 
