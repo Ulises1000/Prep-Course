@@ -1,0 +1,15 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`
+* `&&`, `||`, `!`
+
+1.`for`: es un statement de tipo loop que se utiliza cuando se tiene limite establecido, aunque tambien se podria establecer una condicion
+	 que nunca se alcance y por ende genere un loop infinito. Posee 3 argumentos divididos por un ";" se establece lo siguiente:
+	 1er arg: una variable a la que se asigna un valor
+	 2do arg: se presenta una condicion la cual la variable definida tiene que alcanzar
+	 3er arg: se establece la direccionalidad del loop (dependiendo de si aumenta de valor la variable o disminuye de valor),
+	 y a que cantidad aumenta o disminuye la variable definida en el primer argumento.
+
+2.`&&`, `||`, `!`: son operadores logicos que se usan para comparar datos. A diferencia de los operadores aritmetricos, estos no suman, 
+			 restan, dividen, etc. solo se encargan de comparar datos y devolver "true" o "false", dependiendo de la veracidad
+			 de la comparación entre los datos, la cual es denominada condicion.
