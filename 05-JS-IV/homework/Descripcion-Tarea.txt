@@ -1,0 +1,26 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos
+	* Propiedades
+	* Métodos
+	* Bucle `for…in`
+	* Notación de puntos vs notación de corchetes
+
+1.Objetos: hacen referencia a un objeto de la vida real y justo como uno de estos, posee propiedades que lo identifican. las propiedades
+	     son un conjunto formado por una clave o nombre y un valor al que es igual esta clave.
+
+2.Propiedades: son lo que identifican a un objeto. las propiedades son un conjunto formado por una clave o nombre y
+		   un valor al que es igual esta clave.
+
+3.Metodos: son lo mismo que una funcion pero al ser partes de un objeto, se las denomina metodos. Esta denominacion proviene de otros
+	     lenguajes como "c" que no se basaban en un paradigma de objetos y por ende, cuando se incluyo este paradigma, se le dio esta
+	     denominacion a las funciones.
+
+4.Bucle `for…in`: al igual que un for da una cantidad de loops especificada. La diferencia radica en que no se especifica la cantidad, 
+			ya que recorre la cantidad de elementos de un objeto y es debido a que no se identifican las propiedades con numeros
+			(como en un array), que no se puede usar un for y es necesario el uso de un for...in
+
+5.Notación de puntos vs notación de corchetes: agrega una forma distinta de identificar una propiedad. mientras que con la notacion de 
+							     corchetes se necesitan corchetes y establecer un string que simboliza la clave de la propiedad
+							     en una notacion de puntos solo se requiere poner "." y el nombre de la propiedad, sin nece-
+							     sidad de "".
