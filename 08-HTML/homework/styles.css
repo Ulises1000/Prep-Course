@@ -1,0 +1,48 @@
+body{
+    background-image: url("https://www.florescastillon.com/wp-content/uploads/2016/07/jardin-zen-768x519.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color: red;
+}
+img{
+    width: 400px;
+}
+#thirdDiv{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: 500px;
+    background-color: aqua;
+    border: 10px solid violet;
+}
+
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
+
+a, span{
+    color: red;
+    font-weight: 700;
+}
+
+h3, h4{
+    color: yellow;
+    font-size: large;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
